@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AnimateWave : MonoBehaviour
 {
-    public Transform surfboard;
+    public Transform surfboardTransform;
 
     SkinnedMeshRenderer skinnedMeshRenderer;
     Mesh skinnedMesh;
@@ -46,7 +46,10 @@ public class AnimateWave : MonoBehaviour
 
         vertexNum = 7600;
 
-        surfboard.position = new Vector3(vertices[vertexNum].x, 0.01f + vertices[vertexNum].y, vertices[vertexNum].z);
+        Vector3 target = new Vector3(vertices[vertexNum].x,
+            0.01f + vertices[vertexNum].y, vertices[vertexNum].z);
+
+        surfboardTransform.position = target;
 
         //// skinnedMeshRenderer.SetBlendShapeWeight(150, 100f);
 
