@@ -1,0 +1,22 @@
+# Written by MakeHuman UNKNOWN:UNKNOWN
+version v1.2.0
+camera 0.0 0.0 -0.26499037720904983 0.1524935444135735 -0.1780349865265253 0.575
+modifier breast/BreastSize 0.638000
+modifier breast/BreastFirmness 0.644000
+modifier macrodetails/Gender 0.000000
+modifier macrodetails/Age 0.466000
+modifier macrodetails/African 0.753000
+modifier macrodetails/Asian 0.123500
+modifier macrodetails/Caucasian 0.123500
+modifier macrodetails-universal/Muscle 0.690000
+modifier macrodetails-universal/Weight 0.385000
+modifier macrodetails-height/Height 0.615000
+modifier macrodetails-proportions/BodyProportions 0.661000
+hair short01 766436e9-63ed-4f6a-afa9-99f3acff70a8
+eyes HighPolyEyes 2c12f43b-1303-432c-b7ce-d78346baf2e6
+clothes female_sportsuit01 e38d3a5b-718f-41d5-8404-299def30b43f
+clothesHideFaces True
+skinMaterial skins/default.mhmat
+material short01 766436e9-63ed-4f6a-afa9-99f3acff70a8 short01.mhmat
+material HighPolyEyes 2c12f43b-1303-432c-b7ce-d78346baf2e6 eyes/materials/brown.mhmat
+subdivide False

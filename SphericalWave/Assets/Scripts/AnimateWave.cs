@@ -44,12 +44,15 @@ public class AnimateWave : MonoBehaviour
         skinnedMeshRenderer.BakeMesh(bakedMesh, true);
         vertices = bakedMesh.vertices;
 
-        vertexNum = 7600;
+        vertexNum = 5000;
 
-        Vector3 target = new Vector3(vertices[vertexNum].x,
-            0.01f + vertices[vertexNum].y, vertices[vertexNum].z);
+       Vector3 target = new Vector3(0.3757922f+vertices[vertexNum].x,
+            0.303977f + vertices[vertexNum].y, 0.6339116f+vertices[vertexNum].z);
 
         surfboardTransform.position = target;
+
+
+
 
         //// skinnedMeshRenderer.SetBlendShapeWeight(150, 100f);
 
