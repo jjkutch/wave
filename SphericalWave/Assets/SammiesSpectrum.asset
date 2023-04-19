@@ -19,10 +19,10 @@ MonoBehaviour:
   _smallWavelengthMultiplier: 1
   _multiplier: 1.02
   _powerLog:
-  - -1.0930991
+  - -7.593099
   - -6.840524
   - -6.0879493
-  - -6.2994184
+  - -5.3353744
   - -4.5827994
   - -3.8302243
   - -3.0776494
@@ -32,7 +32,7 @@ MonoBehaviour:
   - -0.06734933
   - 0.68522567
   - 1.4378006
-  - -8
+  - 2.1903756
   _powerDisabled: 0101010001010101010101010101
   _chopScales:
   - 1
@@ -64,6 +64,6 @@ MonoBehaviour:
   - 1
   - 1
   - 1
-  _chop: 0.4
+  _chop: 0.384
   _showAdvancedControls: 0
-  _model: 0
+  _model: 1
